@@ -1,0 +1,16 @@
+{
+  "name": "mcfar-net",
+  "version": "1.0.0",
+  "description": "McFarland Summer Social event website",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

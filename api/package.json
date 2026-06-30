@@ -1,0 +1,14 @@
+{
+  "name": "mcfar-net-api",
+  "version": "1.0.0",
+  "description": "Azure Functions API for McFarland Summer Social RSVP",
+  "scripts": {
+    "start": "func start"
+  },
+  "dependencies": {
+    "@azure/data-tables": "^13.2.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
