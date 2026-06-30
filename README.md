@@ -1,4 +1,4 @@
-# McFarland Summer Social
+# McFarland Summer Social v0.0.1
 
 Event website for the **McFarland Summer Social** – Saturday, July 25, 2026 · St. Louis, MO.
 
