@@ -66,8 +66,12 @@ module.exports = async function (context, req) {
       credential
     );
 
-    // Create the table if it doesn't exist yet (safe to call repeatedly)
-    await client.createTable().catch(() => {});
+    // Create the table if it doesn't exist yet (safe to call repeatedly; ignore "already exists" errors)
+    await client.createTable().catch((err) => {
+      if (err && err.statusCode !== 409) {
+        context.log.warn("createTable warning:", err.message);
+      }
+    });
 
     const rowKey = `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
 

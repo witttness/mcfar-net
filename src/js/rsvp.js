@@ -98,8 +98,8 @@
         } else {
           var msg = (result.body && result.body.error) || "An error occurred.";
           if (errorBox) {
-            errorBox.querySelector("strong").textContent = "Oops! ";
-            errorBox.lastChild.textContent = msg;
+            var msgEl = errorBox.querySelector("[data-error-message]");
+            if (msgEl) msgEl.textContent = msg;
           }
           showAlert(errorBox);
         }
