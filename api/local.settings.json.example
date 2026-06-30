@@ -1,0 +1,10 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "AZURE_STORAGE_ACCOUNT_NAME": "YOUR_STORAGE_ACCOUNT_NAME",
+    "AZURE_STORAGE_ACCOUNT_KEY": "YOUR_STORAGE_ACCOUNT_KEY",
+    "AZURE_TABLE_NAME": "rsvps"
+  }
+}

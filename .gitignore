@@ -1,0 +1,7 @@
+node_modules/
+_site/
+dist/
+.env
+api/local.settings.json
+*.log
+.DS_Store
