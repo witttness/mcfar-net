@@ -5,3 +5,5 @@ dist/
 api/local.settings.json
 *.log
 .DS_Store
+__azurite*
+AzuriteConfig
