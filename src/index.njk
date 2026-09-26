@@ -12,7 +12,6 @@ description: Join the McFarland family for a summer social celebration – Satur
     <p class="hero__subtitle">Saturday, July 25, 2026 &nbsp;·&nbsp; 4:00 PM – 10:00 PM</p>
     <p class="hero__location">3208 Henrietta St &amp; Terry Park · St. Louis, MO 63104</p>
     <div class="hero__actions">
-      <a href="#rsvp" class="btn btn--primary">RSVP Now</a>
       <a href="#details" class="btn btn--secondary">See Details</a>
     </div>
     <p class="hero__faith">"God has been good to us. Help us celebrate God's faithfulness to our family!"</p>
@@ -154,91 +153,9 @@ description: Join the McFarland family for a summer social celebration – Satur
 <section class="section section--light" id="rsvp">
   <div class="container container--narrow">
     <h2 class="section__title">RSVP</h2>
-    <p class="section__lead">Let us know you're coming! We'd love to have a head count.</p>
-
-    <div id="rsvp-success" class="alert alert--success" hidden>
-      <strong>🎉 You're on the list!</strong> Thanks for RSVP-ing — we can't wait to see you on July 25th!
+    <div class="alert alert--info">
+      <strong>🎉 Registration is now closed.</strong> The McFarland Summer Social has concluded — thank you to everyone who celebrated with us!
     </div>
-    <div id="rsvp-error" class="alert alert--error" hidden>
-      <strong>Oops!</strong> <span data-error-message>Something went wrong. Please try again or reach out to us directly.</span>
-    </div>
-
-    <form id="rsvp-form" class="rsvp-form" novalidate>
-      <div class="form-group">
-        <label for="name">Your Name <span class="required" aria-hidden="true">*</span></label>
-        <input
-          type="text"
-          id="name"
-          name="name"
-          autocomplete="name"
-          required
-          placeholder="First and last name"
-        />
-        <span class="field-error" id="name-error" aria-live="polite"></span>
-      </div>
-
-      <div class="form-group">
-        <label for="contactInfo">Email or Phone <span class="required" aria-hidden="true">*</span></label>
-        <input
-          type="text"
-          id="contactInfo"
-          name="contactInfo"
-          autocomplete="email tel"
-          required
-          placeholder="email@example.com or (314) 555-0100"
-        />
-        <span class="field-error" id="contactInfo-error" aria-live="polite"></span>
-      </div>
-
-      <div class="form-group">
-        <label for="attending">Number Attending <span class="required" aria-hidden="true">*</span></label>
-        <input
-          type="number"
-          id="attending"
-          name="attending"
-          min="1"
-          max="30"
-          required
-          placeholder="1"
-        />
-        <span class="field-error" id="attending-error" aria-live="polite"></span>
-      </div>
-
-      <div class="form-group">
-        <label for="guestNames">Names of Guests <span class="optional">(optional)</span></label>
-        <textarea
-          id="guestNames"
-          name="guestNames"
-          rows="3"
-          placeholder="List your guests' names (optional)"
-        ></textarea>
-      </div>
-
-      <div class="form-group">
-        <label for="bringing">Are you bringing a side, dessert, or drink? <span class="optional">(optional)</span></label>
-        <input
-          type="text"
-          id="bringing"
-          name="bringing"
-          placeholder="e.g. potato salad, sweet tea, brownies…"
-        />
-      </div>
-
-      <div class="form-group">
-        <label for="notes">Any notes? <span class="optional">(optional)</span></label>
-        <textarea
-          id="notes"
-          name="notes"
-          rows="3"
-          placeholder="Dietary needs, questions, anything else…"
-        ></textarea>
-      </div>
-
-      <button type="submit" class="btn btn--primary btn--full" id="rsvp-submit">
-        <span id="rsvp-submit-text">Count Me In! 🎉</span>
-        <span id="rsvp-submit-loading" hidden>Sending…</span>
-      </button>
-    </form>
   </div>
 </section>
 
